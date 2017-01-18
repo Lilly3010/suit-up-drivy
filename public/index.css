@@ -1,0 +1,80 @@
+body {
+	text-align : center;
+	cursor:context-menu;
+}
+
+h1 {
+	color : lavender;
+}
+
+input {
+	border-radius : 5px;
+	margin : 5px;
+	text-align : center;
+	cursor : text;
+	padding : 5px;
+}
+
+.option {
+	cursor : pointer;
+}
+
+button {
+	border-radius : 5px;
+	margin : 10px;
+	background-color : crimson;
+	border : none;
+	padding : 10px;
+	font-size : 20px;
+	color : white;
+	font-weight : bold;
+	cursor : pointer;
+	transition : all 0.1s;
+}
+
+#who{
+	font-weight : bold;
+}
+
+#type{
+	font-style : italic;
+}
+
+#actors{
+	border-radius : 5px;
+	border-color : white;
+	border : 2px solid;
+	padding : 2px;
+	margin : auto;
+	padding : 2px;
+	width: -webkit-fit-content;
+	height: -webkit-fit-content;
+	width: -moz-fit-content;
+	height: -moz-fit-content;
+}
+
+#car, #rental {
+	margin : 5px;
+}
+
+.car{
+	margin : auto;
+}
+
+#amount{
+	color : red;
+}
+
+button:active {
+	transform : translateY(4px);
+}
+
+.table {
+	background-color : black;
+	color : white;
+	width : 75%;
+	height : auto;
+	padding-top : 5px;
+	padding-bottom : 15px;
+	margin : auto;
+}
